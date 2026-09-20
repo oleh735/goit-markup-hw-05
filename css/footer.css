@@ -59,3 +59,67 @@
 .footer .socials-link:focus {
   background-color: #31d0aa;
 }
+
+.footer-form-container {
+  margin-right: 15px;
+  margin-left: auto;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.form-send-button {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 8px 24px;
+  max-width: 165px;
+  width: 165px;
+  background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-send-button:hover {
+  background-color: #31d0aa;
+}
+
+.form-send-button.right.footer-text {
+  letter-spacing: 0.04em;
+}
+
+.footer-input {
+  background-color: inherit;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  width: 264px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  outline: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.footer-input:focus {
+  border-color: #31d0aa;
+}
+
+.form-header {
+  margin-bottom: 16px;
+}
