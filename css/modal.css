@@ -217,7 +217,7 @@
 
 .check-mark-icon {
   opacity: 0;
-  color: #fff;
+  color: #f4f4fd;
 }
 
 .privacy-checkbox:checked + .checkbox-label .custom-checkbox {
