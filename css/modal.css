@@ -204,6 +204,7 @@
 
 .privacy-checkbox:checked + .checkbox-label .custom-checkbox {
   background-color: #404bbf;
+  border-color: #404bbf;
 }
 
 .privacy-checkbox:checked + .checkbox-label .check-mark-icon {
